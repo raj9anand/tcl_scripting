@@ -1,0 +1,9 @@
+set frequency 300;
+if {$frequency>=300} {
+puts "chip is working"
+  
+}
+elseif {$frequency>300}{
+  puts "chip is not working"
+}
+else{puts "working"};
